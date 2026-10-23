@@ -1,0 +1,14 @@
+{
+  "zip_integrity": "pass",
+  "original_dex_resources_protection": "byte-identical",
+  "dex_checksums_and_launcher": "pass",
+  "native_gpu_feature_check": "byte-identical instructions",
+  "original_dynamic_vulkan_paths": "redirected",
+  "native_bridge_abi_exports_dependencies": "pass",
+  "bundled_driver_upstream_hash": "pass",
+  "link_stubs_not_packaged": "pass",
+  "final_manifest_launcher": "pass",
+  "apk_sha256": "086249a45e7e6d132e36ec7185dd6cd5af1d5f06c06b3ddec1991be33de85b70",
+  "apk_size_bytes": 57174978,
+  "runtime_verification": "not performed; requires user device test"
+}

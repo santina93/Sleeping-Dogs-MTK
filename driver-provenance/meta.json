@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "name": "PanVK Kbase G615",
+  "author": "panvk-kbase-android",
+  "packageVersion": "0.1.0-rc3",
+  "vendor": "Mesa",
+  "driverVersion": "Mesa 26.3.0-devel",
+  "minApi": 35,
+  "description": "Experimental PanVK Kbase driver for supported Mali devices. minApi=35 until API 29 rebuild is proven.",
+  "libraryName": "libvulkan_panfrost.so",
+  "abi": "android-aarch64-bionic",
+  "backend": "panvk-kbase",
+  "kernelInterface": "mali_kbase",
+  "profile": "g615-v11-csf",
+  "gpuId": "0xb8a31030",
+  "panArch": 11,
+  "frontend": "CSF",
+  "kbaseUapi": "1.21",
+  "sourceCommit": "5a07217f034b3e50d8c7c7794f97a2df1742613b",
+  "patchSeriesId": "sha256:b6fc5e0fd3505f79f02f14b55c6205e591622c96412d9f2ac90bf763f9df138e",
+  "prerelease": true,
+  "published": false,
+  "bcCompatibility": {
+    "included": false,
+    "reason": "Phase 6 direct-PanVK composition and correctness workloads blocked"
+  }
+}

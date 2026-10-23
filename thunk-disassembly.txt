@@ -1,0 +1,22 @@
+5e5c59c: stp x29, x30, [sp, #-0x30]!
+5e5c5a0: stp x19, x20, [sp, #0x10]
+5e5c5a4: mov x29, sp
+5e5c5a8: mov x19, x0
+5e5c5ac: mov x20, x1
+5e5c5b0: adr x0, #0x5e5c5f4
+5e5c5b4: mov w1, #2
+5e5c5b8: bl #0x5fe9730
+5e5c5bc: cbz x0, #0x5e5c5e4
+5e5c5c0: adr x1, #0x5e5c601
+5e5c5c4: bl #0x5fe9740
+5e5c5c8: cbz x0, #0x5e5c5e4
+5e5c5cc: mov x16, x0
+5e5c5d0: mov x0, x19
+5e5c5d4: mov x1, x20
+5e5c5d8: ldp x19, x20, [sp, #0x10]
+5e5c5dc: ldp x29, x30, [sp], #0x30
+5e5c5e0: br x16
+5e5c5e4: mov x0, xzr
+5e5c5e8: ldp x19, x20, [sp, #0x10]
+5e5c5ec: ldp x29, x30, [sp], #0x30
+5e5c5f0: ret 

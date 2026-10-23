@@ -1,0 +1,91 @@
+{
+  "original_apk_sha256": "ac630d904182326f85f2bd15b7a5a8abdf42cd95967be09540ebc40d18e33ed0",
+  "libraries": [
+    {
+      "file": "libnfsmw.so",
+      "original_sha256": "f23280e17e7fbfff2e346002b06f56134611bf73982fca533a875f2d79e13dc4",
+      "patched_sha256": "7adf9dac4a889da3bd0b8d7d0470e585c9311aea9096f14ea8aedc4c096dd831",
+      "changes": [
+        {
+          "offset": "0xb35531",
+          "original": "libvulkan.so",
+          "replacement": "libgpudrv.so"
+        },
+        {
+          "offset": "0x5e5c59c",
+          "rva": "0x5e5c59c",
+          "length": 488,
+          "replacement": "checked bridge thunk; no feature-check bypass"
+        }
+      ]
+    },
+    {
+      "file": "libdxvk_d3d11.so",
+      "original_sha256": "2de25cf01f7e12a3da52efdd114f1dbf8e16972060d9c56bbdd61c9740397b71",
+      "patched_sha256": "710727c4b06b29cadf47a51d921302fa5803a8cd82708486723f62c50d99dd79",
+      "changes": [
+        {
+          "offset": "0x441ba",
+          "original": "libvulkan.so",
+          "replacement": "libgpudrv.so"
+        },
+        {
+          "offset": "0x45196",
+          "original": "libvulkan.so.1",
+          "replacement": "libgpudrv.so"
+        }
+      ]
+    },
+    {
+      "file": "libdxvk_dxgi.so",
+      "original_sha256": "b6a92c72e280ffeac508b1e67d81e2bcf438e86f1558c9998f81da4e46014e58",
+      "patched_sha256": "9d694e02eb41d5c2dea88cdb5388049cbea63c0ab67c1a58898b13a5d3a1b3c1",
+      "changes": [
+        {
+          "offset": "0x25e1b",
+          "original": "libvulkan.so",
+          "replacement": "libgpudrv.so"
+        },
+        {
+          "offset": "0x27290",
+          "original": "libvulkan.so.1",
+          "replacement": "libgpudrv.so"
+        }
+      ]
+    },
+    {
+      "file": "libdxvk2_d3d11.so",
+      "original_sha256": "ff139efd3a4699fdb94d394a6f0fc37b4964d6c94985e401c1aed8dbe96720f2",
+      "patched_sha256": "5b8997d5038649f2681aa422fbdc79c4038c0efa926ac65b3510c8f0ca4d50bb",
+      "changes": [
+        {
+          "offset": "0x3df05",
+          "original": "libvulkan.so",
+          "replacement": "libgpudrv.so"
+        },
+        {
+          "offset": "0x3ea1f",
+          "original": "libvulkan.so.1",
+          "replacement": "libgpudrv.so"
+        }
+      ]
+    },
+    {
+      "file": "libdxvk2_dxgi.so",
+      "original_sha256": "74a86cbede807ceb50fec758df8f65b929c24d00b303f70adda350c195f86821",
+      "patched_sha256": "e6c4608cbfe3255b6ecf2c43b4023e55f906347832e04b0153ddb2d01fc7750c",
+      "changes": [
+        {
+          "offset": "0x22432",
+          "original": "libvulkan.so",
+          "replacement": "libgpudrv.so"
+        },
+        {
+          "offset": "0x23386",
+          "original": "libvulkan.so.1",
+          "replacement": "libgpudrv.so"
+        }
+      ]
+    }
+  ]
+}

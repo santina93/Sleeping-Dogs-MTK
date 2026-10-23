@@ -1,0 +1,26 @@
+source:
+	C:\Users\ritis\Documents\Codex\2026-10-23\i-x20\work\mali-port
+zipalign location: CUSTOM 
+	C:\Users\ritis\Documents\Codex\2026-10-23\i-x20\work\android-tools\zipalign.exe
+keystore:
+	[0] 161a0018 C:\Users\ritis\Documents\Codex\2026-10-23\i-x20\work\android-tools\debug.keystore (DEBUG_CUSTOM_LOCATION)
+
+01. SleepingDogs-Mali-G615-experimental-unsigned.apk
+
+	SIGN
+	file: C:\Users\ritis\Documents\Codex\2026-10-23\i-x20\work\mali-port\SleepingDogs-Mali-G615-experimental-unsigned.apk (54.51 MiB)
+	checksum: b968cdb266db8d3bb2baf1cb0d51c599a127814eb26f25d741d29c98581712b0 (sha256)
+	- zipalign success
+	- sign success
+
+	VERIFY
+	file: C:\Users\ritis\Documents\Codex\2026-10-23\i-x20\work\mali-port\release\SleepingDogs-Mali-G615-experimental-aligned-debugSigned.apk (54.53 MiB)
+	checksum: 86249a45e7e6d132e36ec7185dd6cd5af1d5f06c06b3ddec1991be33de85b70 (sha256)
+	- zipalign verified
+	- signature verified [v3]
+		Subject: CN=Android Debug, OU=Android, O=US, L=US, ST=US, C=US
+		SHA256: 1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953 / SHA256withRSA
+		Expires: Fri Mar 11 01:40:05 IST 2044
+
+[Fri Oct 23 12:42:24 IST 2026][v1.3.0]
+Successfully processed 1 APKs and 0 errors in 11.02 seconds.
