@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title description">
+  <title id="title">Sleeping Dogs Mali launcher status</title>
+  <desc id="description">Experimental project tested on Mali G615 MC6, currently reaching about 10 to 20 frames per second in game.</desc>
+  <rect width="960" height="300" rx="18" fill="#101c1c"/>
+  <path d="M0 228h960v72H0z" fill="#18302b"/>
+  <path d="M40 232h880" stroke="#42665b" stroke-width="2"/>
+  <text x="54" y="62" fill="#a9e3bc" font-family="sans-serif" font-size="15" font-weight="700" letter-spacing="2">SLEEPING DOGS / ANDROID PORT</text>
+  <text x="54" y="112" fill="#f4f1e8" font-family="sans-serif" font-size="34" font-weight="700">MALI LAUNCHER</text>
+  <text x="54" y="145" fill="#b8c8bd" font-family="sans-serif" font-size="17">Experimental build · Mali G615 MC6 tested</text>
+  <rect x="54" y="175" width="154" height="34" rx="5" fill="#f0c46d"/>
+  <text x="131" y="198" fill="#20251f" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">IN DEVELOPMENT</text>
+  <g transform="translate(665 48)">
+    <rect x="44" y="20" width="154" height="154" rx="14" fill="#234b3d" stroke="#a9e3bc" stroke-width="3"/>
+    <rect x="75" y="51" width="92" height="92" rx="8" fill="#101c1c" stroke="#78bd91" stroke-width="2"/>
+    <text x="121" y="91" fill="#f4f1e8" font-family="sans-serif" font-size="19" font-weight="700" text-anchor="middle">MALI</text>
+    <text x="121" y="117" fill="#a9e3bc" font-family="sans-serif" font-size="16" text-anchor="middle">G615 MC6</text>
+    <g stroke="#a9e3bc" stroke-width="4">
+      <path d="M70 8v12M100 8v12M130 8v12M160 8v12M70 174v12M100 174v12M130 174v12M160 174v12"/>
+      <path d="M32 45h12M32 75h12M32 105h12M32 135h12M198 45h12M198 75h12M198 105h12M198 135h12"/>
+    </g>
+    <text x="121" y="220" fill="#b8c8bd" font-family="sans-serif" font-size="13" text-anchor="middle">CURRENT TEST GPU</text>
+  </g>
+  <text x="54" y="268" fill="#f4f1e8" font-family="sans-serif" font-size="16" font-weight="700">CURRENT IN-GAME PERFORMANCE</text>
+  <text x="906" y="270" fill="#f0c46d" font-family="sans-serif" font-size="22" font-weight="700" text-anchor="end">10-20 FPS</text>
+</svg>
